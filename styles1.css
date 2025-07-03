@@ -1,0 +1,60 @@
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.font-md {
+  font-size: medium;
+}
+
+.bahnschrift {
+  font-family: bahnschrift;
+}
+
+.text-600 {
+  font-weight: 600;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.field {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+
+.inpt {
+  border: 20%;
+  padding: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+td {
+  padding: 5px 10px;
+}
+table {
+  margin: 10px;
+}
+
+.ptag {
+}
