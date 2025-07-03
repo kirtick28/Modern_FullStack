@@ -1,0 +1,23 @@
+.box {
+  padding: 10px;
+  border: 2px solid red;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  align-content: center;
+  min-height: 150px;
+}
+
+.outerbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.box:nth-child(2) {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
